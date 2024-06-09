@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="Test">
+        <classes>
+            <class name="web.testcases.AppHealthCheckTest"/>
+            <class name="web.testcases.CreateCampaignTest"/>
+            <class name="web.testcases.EditCampaignTest"/>
+            <class name="web.testcases.RegistrationFlowTest"/>
+        </classes>
+    </test>
+</suite>
